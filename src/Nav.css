@@ -1,0 +1,26 @@
+nav {
+    position: fixed;
+    z-index: 1; 
+    width: 100vw;
+    height: 2em;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(253,218,36,1) 50%, rgba(239,51,64,1) 100%);
+    padding: 1em;
+}
+
+p {
+    font-size: 1.5em;
+    margin: 0;
+    color: aliceblue;
+    float: left;
+    padding-right: 1em;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+a:hover {
+    text-decoration: underline;
+}
